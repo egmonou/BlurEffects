@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C3DE7EAD2C92B27900A197CB /* BlurEffectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE7EAC2C92B27900A197CB /* BlurEffectsApp.swift */; };
-		C3DE7EAF2C92B27900A197CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE7EAE2C92B27900A197CB /* ContentView.swift */; };
+		C3DE7EAF2C92B27900A197CB /* BlurEffectDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE7EAE2C92B27900A197CB /* BlurEffectDemo.swift */; };
 		C3DE7EB12C92B27C00A197CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DE7EB02C92B27C00A197CB /* Assets.xcassets */; };
 		C3DE7EB52C92B27C00A197CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DE7EB42C92B27C00A197CB /* Preview Assets.xcassets */; };
+		C3F162552C934E3700A8A4E8 /* SliderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F162542C934E3700A8A4E8 /* SliderTextView.swift */; };
+		C3F162592C948C7500A8A4E8 /* BlendCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F162582C948C7500A8A4E8 /* BlendCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3DE7EA92C92B27900A197CB /* BlurEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DE7EAC2C92B27900A197CB /* BlurEffectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectsApp.swift; sourceTree = "<group>"; };
-		C3DE7EAE2C92B27900A197CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3DE7EAE2C92B27900A197CB /* BlurEffectDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectDemo.swift; sourceTree = "<group>"; };
 		C3DE7EB02C92B27C00A197CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3DE7EB22C92B27C00A197CB /* BlurEffects.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlurEffects.entitlements; sourceTree = "<group>"; };
 		C3DE7EB42C92B27C00A197CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3F162542C934E3700A8A4E8 /* SliderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTextView.swift; sourceTree = "<group>"; };
+		C3F162582C948C7500A8A4E8 /* BlendCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				C3DE7EAC2C92B27900A197CB /* BlurEffectsApp.swift */,
-				C3DE7EAE2C92B27900A197CB /* ContentView.swift */,
+				C3DE7EAE2C92B27900A197CB /* BlurEffectDemo.swift */,
+				C3F162542C934E3700A8A4E8 /* SliderTextView.swift */,
 				C3DE7EB02C92B27C00A197CB /* Assets.xcassets */,
 				C3DE7EB22C92B27C00A197CB /* BlurEffects.entitlements */,
 				C3DE7EB32C92B27C00A197CB /* Preview Content */,
+				C3F162582C948C7500A8A4E8 /* BlendCircleView.swift */,
 			);
 			path = BlurEffects;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DE7EAF2C92B27900A197CB /* ContentView.swift in Sources */,
+				C3DE7EAF2C92B27900A197CB /* BlurEffectDemo.swift in Sources */,
 				C3DE7EAD2C92B27900A197CB /* BlurEffectsApp.swift in Sources */,
+				C3F162592C948C7500A8A4E8 /* BlendCircleView.swift in Sources */,
+				C3F162552C934E3700A8A4E8 /* SliderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +292,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -322,7 +330,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;

@@ -11,7 +11,7 @@ import SwiftUI
 struct BlurEffectsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BlurEffectDemo()
         }
     }
 }
